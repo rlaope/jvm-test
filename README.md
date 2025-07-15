@@ -1,5 +1,7 @@
 ```sh
-java \
+$ jenv shell 17 # 난 17 안써서 ㅎㅎ;;
+
+$ java \
   -Xms128M \
   -Xmx128M \
   -XX:+HeapDumpOnOutOfMemoryError \
