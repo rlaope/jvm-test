@@ -41,6 +41,7 @@ tasks.named<org.springframework.boot.gradle.tasks.run.BootRun>("bootRun") {
     jvmArgs = listOf(
         "-Xmx256m",
         "-XX:+HeapDumpOnOutOfMemoryError",
+        "-XX:NativeMemoryTracking=detail",
         "-XX:HeapDumpPath=./heapdump.hprof"
     )
 }
