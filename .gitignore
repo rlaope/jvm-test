@@ -38,3 +38,6 @@ out/
 
 ### Kotlin ###
 .kotlin
+*.hprof
+*.log
+*.class
