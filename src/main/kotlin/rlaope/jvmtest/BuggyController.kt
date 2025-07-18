@@ -38,4 +38,7 @@ class BuggyController {
         }
         return "won't reach"
     }
+
+    @GetMapping("/health/check")
+    fun health() = "OK"
 }
